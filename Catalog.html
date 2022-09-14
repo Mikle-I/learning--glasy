@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+     <meta charset="utf-8">
+     <title>Глейс</title>
+     <style>
+       @font-face {
+         font-family: roboto;
+         src: url(../glasy/fonts/web/roboto.woff);
+
+         font-family: robotobold;
+         src: url(../glasy/fonts/web/robotobold.woff);
+        
+         font-family: robotomedium;
+         src: url(../glasy/fonts/web/robotomedium.woff);
+       }
+     </style>
+     <link  href="css/normalize.css" rel="stylesheet">
+     <link  href="css/style.css" rel="stylesheet">
+  </head>
+  <body class="bodyback">
+    <header>
+    
+        <nav class="main-nav">
+          <div></div>
+          <ul class="main-navli main-block1">
+            <li> 
+                <A href="home.html" >
+                   <img src="svg/logo.svg" alt="логотип Глейс" class="main-navli">
+                </A> 
+            </li>
+              <li> <a href="#" class="catalog"><P class="main-navli">Каталог</P></a> </li>
+              <li> <a href="#" ><P class="main-navli">Доставка и оплата</P></a> </li>
+              <li> <a href="#" ><P class="main-navli">О компании</P></a> </li>
+          </ul>
+          <ul class="main-navli main-block2">
+            <li>
+            <button type="button" class="buttonhed1"><img src="svg/loupe.svg" alt="лупа поиска"> </button>
+            <button type="button" class="buttonhed2"><img src="svg/Вход.png" alt="Вход">  Вход</button>
+            <button type="button" class="buttonhed3"><img src="svg/Корзина2.png" alt="Корзина"> Корзина</button>
+             </li>
+          
+          <div>
+          <p>
+            С 10 до 20, ежедневно
+          </p>
+          <p class="main-nav_big_text">
+            8 812 450-25-25
+          </p>
+        </div>
+        </ul> 
+        </nav>
+    </header>
+    <main>
+      <div class="label">
+          <p class="littletext"> 
+            Главная  »  Каталог  »  Сливочное
+          </p>
+          <H1 class="Bigtext">Сливочное мороженое</H1>
+      </div>
+    <div class="filters">
+      <div>
+        <p class="littletext" style="margin-left: 15px;"> 
+            Cортировка:
+        </p>
+        <button class="sortingbutton">по популярности    ▼</button>
+      </div>
+
+      <div class="sortingform">
+        <form action="#" method="get" class="sortinginput">
+          <p>по популярности</p>
+          <p>сначала недорогие</p>
+          <p>сначала дорогие</p>
+          <p>по жирности</p>
+         </form>
+      </div>
+
+      <div>
+        <p class="littletext" style="margin-left: 15px;"> 
+            Цена: 100 руб. – 500 руб
+        </p>
+        <div class="back2">
+        <input type="range" min="100" max="500" step="20" value="150" />
+        </div>
+      </div>
+      <div>
+        <p class="littletext" style="margin-left: 15px;"> 
+            Жирность:
+        </p>
+        <div class="back whitetext">
+        <input type="radio" name="gir" value="0%">
+         <label >0%</label>
+         <input type="radio" name="gir" value="10%">
+         <label >до 10%</label>
+         <input type="radio" name="gir" value="30%">
+         <label >до 30%</label>
+         <input type="radio" name="gir" value="31%">
+         <label >выше 30%</label>
+        </div>
+      </div>
+
+       <div>
+
+        <p class="littletext" style="margin-left: 15px;"> 
+         Наполнители:
+        </p>
+        <div class="napolnitel whitetext">
+          <label class="check">
+            <input type="checkbox"  name="napolnitel" value="chocolad" checked>
+           
+          шоколадные
+          </label>
+          <label class="check">
+        <input type="checkbox"  name="napolnitel" value="sugar"  checked>
+        сахарные присыпки</label>
+
+        <input type="checkbox"  name="napolnitel"  value="fruit">
+        <label >фрукты</label>
+
+        <input type="checkbox"  name="napolnitel"  value="sirop">
+        <label >сиропы</label>
+
+        <input type="checkbox"  name="napolnitel"  value="jem">
+        <label >джемы</label>
+       </div>
+    </div>
+    <button class="primenit">Применить</button>
+ 
+
+    </div> 
+    <div>
+        <div class="product-list">
+            <div class="main-product">
+                <img src="png/1.png" alt="мороженка" style="position: absolute; z-index: 1;">
+                <h3 >
+                    310 &#8381/<small>кг</small>
+                </h3>
+                <p>
+                  Сливочное с апельсиновым<br> 
+                  джемом и цитрусовой стружкой
+                </p>
+            </div>
+            <div class="main-product">
+              <img src="png/2.png" alt="мороженка">
+              <h3>
+                  380 &#8381/<small>кг</small>
+              </h3>
+              <p>
+                Сливочное-кофейное с кусочками<br> 
+                шоколада
+              </p>
+            </div>
+            <div class="main-product">
+              <img src="png/3.png" alt="мороженка">
+              <h3>
+                  355 &#8381/<small>кг</small>
+              </h3>
+              <p>
+                Сливочное-клубничное с<br> 
+                присыпкой из белого шоколада
+              </p>
+          </div>
+
+          <div class="main-product">
+              <img src="png/4.png" alt="мороженка">
+              <h3>
+                  415 &#8381/<small>кг</small>
+              </h3>
+              <p>
+                Сливочное крем-брюле с<br> 
+                карамельной подливкой
+              </p>
+          </div>
+          <div class="main-product">
+            <img src="png/4.png" alt="мороженка">
+            <h3>
+                415 &#8381/<small>кг</small>
+            </h3>
+            <p>
+              Сливочное крем-брюле с<br> 
+              карамельной подливкой
+            </p>
+        </div>
+        
+          <div class="main-product">
+              <img src="png/1.png" alt="мороженка" style="position: absolute; z-index: 1;">
+              <h3 >
+                  310 &#8381/<small>кг</small>
+              </h3>
+              <p>
+                Сливочное с апельсиновым<br> 
+                джемом и цитрусовой стружкой
+              </p>
+          </div>
+          <div class="main-product">
+            <img src="png/2.png" alt="мороженка">
+            <h3>
+                380 &#8381/<small>кг</small>
+            </h3>
+            <p>
+              Сливочное-кофейное с кусочками<br> 
+              шоколада
+            </p>
+          </div>
+          <div class="main-product">
+            <img src="png/3.png" alt="мороженка">
+            <h3>
+                355 &#8381/<small>кг</small>
+            </h3>
+            <p>
+              Сливочное-клубничное с<br> 
+              присыпкой из белого шоколада
+            </p>
+        </div>
+        <div class="main-product">
+          <img src="png/4.png" alt="мороженка">
+          <h3>
+              415 &#8381/<small>кг</small>
+          </h3>
+          <p>
+            Сливочное крем-брюле с<br> 
+            карамельной подливкой
+          </p>
+      </div>
+      
+        <div class="main-product">
+            <img src="png/1.png" alt="мороженка" style="position: absolute; z-index: 1;">
+            <h3 >
+                310 &#8381/<small>кг</small>
+            </h3>
+            <p>
+              Сливочное с апельсиновым<br> 
+              джемом и цитрусовой стружкой
+            </p>
+        </div>
+       
+       
+      
+      
+        </Div>
+    </div>
+    </main>
+    <footer>
+
+    </footer>
+    </Body>
+</html>
+        
